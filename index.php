@@ -1,57 +1,53 @@
-<!DOCTYPE php>
-<html>
-<head>
-    <title>EnArch Technologies | Home</title>
-    <link href="css/js-image-slider.css" rel="stylesheet" type="text/css" />
-    <script src="js/js-image-slider.js" type="text/javascript"></script>
-    <link href="css/styles.css" rel="stylesheet" type="text/css" />
-    <style type="text/css">
-        .cap  {width:190px;height:240px;display:inline-block;background:white url(resources/images/slider/caption1.gif) no-repeat 0 0;border-radius:4px;}
-        .cap2 {background-image:url(resources/images/slider/caption2.gif)}
-        .cap3 {background-image:url(resources/images/slider/caption3.gif)}
-        .cap4 {background-image:url(resources/images/slider/caption4.gif)}
-    </style>
-</head>
-<body>
-    <div class="div1"><h1>EnArch Technologies</h1>
-        <br />
-    </div>
+<?php
+    $pageTitle = "EnArch Tecnologies | Home";
+    include('header.php');
+?>
 
-    <div id="sliderFrame">
-        <div id="slider">
-            <a href="http://www.menucool.com/"><img src="resources/images/slider/slider-1.jpg" alt="#htmlcaption1" /></a>
-            <a class="lazyImage" href="resources/images/slider/slider-2.jpg" title="#htmlcaption2">slide 2</a>
-            <a href="http://www.menucool.com/javascript-image-slider">
-                <b data-src="resources/images/slider/slider-3.jpg" data-alt="#htmlcaption3">Image Slider</b>
-            </a>
-            <a class="lazyImage" href="resources/images/slider/slider-4.jpg" title="#htmlcaption4">slide 4</a>
+<!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+          <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Welcome to EnArch Tecnoloies</h1>
+              <p>Note: We are not up to 100% yet. we are getting there. i am sorry if theres things missing. if you need to get a hold of us our emails are mwilke16@moundsparkacademy.org and rlannon16@moundsparkacademy.org</p>
+              <!--<p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>-->
+            </div>
+          </div>
         </div>
-        <!--thumbnails-->
-        <div id="thumbs">
-            <div class="thumb"><img src="resources/images/slider/thumb-1.gif" /></div>
-            <div class="thumb"><img src="resources/images/slider/thumb-2.gif" /></div>
-            <div class="thumb"><img src="resources/images/slider/thumb-3.gif" /></div>
-            <div class="thumb"><img src="resources/images/slider/thumb-4.gif" /></div>
+        <div class="item">
+          <img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Tech Support</h1>
+              <p>Note: We are not up to 100% yet. we are getting there. i am sorry if theres things missing. if you need to get a hold of us our emails are mwilke16@moundsparkacademy.org and rlannon16@moundsparkacademy.org</p>
+              <!--<p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>-->
+            </div>
+          </div>
         </div>
-        <!--captions-->
-        <div style="display: none;">
-            <div id="htmlcaption1">
-                <div class="cap"></div>
+        <div class="item">
+          <img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Gaming</h1>
+              <p>Note: We are not up to 100% yet. we are getting there. i am sorry if theres things missing. if you need to get a hold of us our emails are mwilke16@moundsparkacademy.org and rlannon16@moundsparkacademy.org</p>
+              <!--<p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>-->
             </div>
-            <div id="htmlcaption2">
-                <div class="cap cap2"></div>
-            </div>
-            <div id="htmlcaption3">
-                <div class="cap cap3"></div>
-            </div>
-            <div id="htmlcaption4">
-                <div class="cap cap4"></div>
-            </div>
+          </div>
         </div>
-    </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div><!-- /.carousel -->
 
-
-    <div class="div2">
-    </div>
-</body>
-</html>
+<?php
+    include('footer.php');
+?>
