@@ -14,7 +14,7 @@
       </ol>
       <div class="carousel-inner">
         <div class="item active">
-          <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide">
+          
           <div class="container">
             <div class="carousel-caption">
               <h1>Welcome to EnArch Tecnoloies</h1>
@@ -24,7 +24,7 @@
           </div>
         </div>
         <div class="item">
-          <img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide">
+          
           <div class="container">
             <div class="carousel-caption">
               <h1>Tech Support</h1>
@@ -34,7 +34,7 @@
           </div>
         </div>
         <div class="item">
-          <img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="Third slide">
+          
           <div class="container">
             <div class="carousel-caption">
               <h1>Gaming</h1>
