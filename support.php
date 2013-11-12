@@ -14,7 +14,7 @@
         E-mail:<br>
             <input type="text" name="mail" value="your email"><br>
                 <div align="center">
-                    <select name="mydropdown">
+                    <select name="OS">
                         <option value="default">----- Choose Your OS -----</option>
                         <option value="xp">Windows XP/Vista</option>
                         <option value="W7">Windows 7</option>
