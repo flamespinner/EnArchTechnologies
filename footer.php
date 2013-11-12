@@ -1,4 +1,7 @@
-     <!-- Bootstrap core JavaScript
+<div id="footer">
+<p>Site designed by EnArch<br /><br />Copyright 2013-2014</p>
+</div>
+<!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
