@@ -8,17 +8,16 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
 
-    <title>EnArch Technologies | Home</title>
-
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="css/carousel.css" rel="stylesheet">
+      <link href="styles.css" rel="stylesheet">
   </head>
 <!-- NAVBAR
 ================================================== -->
   <body>
-    <div class="navbar-wrapper">
+  <div class="navbar-wrapper">
       <div class="container">
 
         <div class="navbar navbar-inverse navbar-static-top">
@@ -34,16 +33,24 @@
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                 <li><a href="about.php">About</a></li>
+                  <li><a href="#">Shop</a></li>
                 <li><a href="contact.php">Contact</a></li>
-                <li><a href="support.php">Tech Support</a></li>
-                <li><a href="store.php">Store</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="webdesign.php">Web Design</a></li>
+                    <li><a href="#">Gaming</a></li>
+                    <li><a href="#">Tech Support</a></li>
+                     <!-- <li><a href="music.php">Music</a></li>-->
+                  </ul>
+                </li>
               </ul>
             </div>
           </div>
         </div>
 
       </div>
-    </div> 
+    </div>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
