@@ -30,7 +30,7 @@
             <div class="carousel-caption">
               <h1>Tech Support</h1>
               <p>Note: We are not up to 100% yet. we are getting there. i am sorry if theres things missing. if you need to get a hold of us our emails are mwilke16@moundsparkacademy.org and rlannon16@moundsparkacademy.org</p>
-              <!--<p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>-->
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn More</a></p>
             </div>
           </div>
         </div>
