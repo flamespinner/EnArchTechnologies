@@ -1,5 +1,6 @@
 <div id="footer">
-<p>Site designed by EnArch<br /><br />Copyright 2013-2014</p>
+<br />
+    <p>Website Designed by EnArch<br /><br />Copyright 2013-2014</p>
 </div>
 <!-- Bootstrap core JavaScript
     ================================================== -->
