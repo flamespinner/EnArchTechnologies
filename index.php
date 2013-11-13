@@ -18,8 +18,11 @@
           
           <div class="container">
             <div class="carousel-caption">
-              <h1>Welcome to EnArch Tecnoloies</h1>
-              <p>Note: We are not up to 100% yet. we are getting there. i am sorry if theres things missing. if you need to get a hold of us our emails are mwilke16@moundsparkacademy.org and rlannon16@moundsparkacademy.org</p>
+              <h1>Welcome to EnArch Tecnologies</h1>
+                <br /><br /><br />
+                <p>Take a look around!</p>
+                <br /><br /><br />
+              <!--<p></p>-->
               <!--<p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>-->
             </div>
           </div>
@@ -30,7 +33,7 @@
             <div class="carousel-caption">
               <h1>Tech Support</h1>
               <p>Note: We are not up to 100% yet. we are getting there. i am sorry if theres things missing. if you need to get a hold of us our emails are mwilke16@moundsparkacademy.org and rlannon16@moundsparkacademy.org</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn More</a></p>
+              <p><a class="btn btn-lg btn-primary" href="support.php" role="button">Learn More</a></p>
             </div>
           </div>
         </div>

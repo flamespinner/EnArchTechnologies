@@ -29,13 +29,14 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#">EnArch Technologies</a>
+              <a class="navbar-brand" href="index.php">EnArch Technologies</a>
             </div>
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li class="active"><a href="index.php">Home</a></li>
                 <li><a href="about.php">About</a></li>
                 <li><a href="contact.php">Contact</a></li>
+                <li><a href="support.php">Tech Support</a></li>
+                <li><a href="store.php">Store</a></li>
               </ul>
             </div>
           </div>
