@@ -24,7 +24,9 @@
                         <option value="10.7">Mac OS X 10.7 Lion</option>
                         <option value="10.8">Mac OS X 10.8 Mountain Lion</option>
                         <option value="10.9">Mac OS X 10.9 Mavericks</option>
+                        <option value="other">Other OS</option>
                     </select>
+                    <p>**If other is selected, please let us know what OS you use.</p>
                 </div>
         Please explain your problem bellow. Please give as much detail as possible:<br>
             <input type="text" name="comment" value="your comment" size="50"><br><br>

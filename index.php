@@ -23,8 +23,16 @@
           
           <div class="container">
             <div class="carousel-caption">
+<<<<<<< HEAD
               <h1>EnArch Tecnologies</h1>
               <p>We are a small technology company based out of Minnesota in partnership with DBZTech. We do Web Design, Software Development, Gaming, Tech Support, and have a variety of original products you can purchase, right here on our website.</p>
+=======
+              <h1>Welcome to EnArch Tecnologies</h1>
+                <br /><br /><br />
+                <p>Take a look around!</p>
+                <br /><br /><br />
+              <!--<p></p>-->
+>>>>>>> 132cd11337086f7a7b98d25996f92d652ea03dd7
               <!--<p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>-->
             </div>
           </div>
@@ -35,7 +43,7 @@
             <div class="carousel-caption">
               <h1>Tech Support</h1>
               <p>Note: We are not up to 100% yet. we are getting there. i am sorry if theres things missing. if you need to get a hold of us our emails are mwilke16@moundsparkacademy.org and rlannon16@moundsparkacademy.org</p>
-              <!--<p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>-->
+              <p><a class="btn btn-lg btn-primary" href="support.php" role="button">Learn More</a></p>
             </div>
           </div>
         </div>
