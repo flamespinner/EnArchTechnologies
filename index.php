@@ -60,7 +60,7 @@
                 headphones, a gaming system, and more! Check out our
                   "shop" page to see them!<br/><br/>
                 </p>
-              <!--<p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>-->
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Visit Shop</a></p>
             </div>
           </div>
         </div>
