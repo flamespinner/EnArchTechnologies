@@ -11,6 +11,7 @@
     color:#FFF;
     margin-top:0px;
     padding:10px;
+    font-family:sans-serif;
 }
 
 #content{
@@ -20,6 +21,7 @@
     color: #FFF;
     margin:0px;
     padding:10px;
+    font-family:sans-serif;
 }
 
 #gradient{
@@ -59,59 +61,3 @@ color:#9a9a9a;
 padding:50px;
     display:none;
 }
-
-/*.nav
-{
-    justify-content:center;
-    text-align:center;
-    width:700px;
-    height:45px;
-    background-color:#000;
-    color:#5a5a5a;
-    font-size:14px;
-    margin-left:300px;
-}
-
-.nav a
-{
-    text-decoration:none;
-}
-
-.nav a:hover
-{
-    color:#FFFFFF;
-}
-
-.nav ul{
-    list-style-type:none;
-}
-
-.nav ul li{
-    float:right;
-    position:relative;
-}
-
-.nav ul li a{
-    text-align:center;
-    display:block;
-    text-decoration:none;
-    color:#5a5a5a;
-    padding:15px;
-}
-
-.nav ul li ul{
-    display:none;
-    color:#5a5a5a;
-}
-
-.nav ul li:hover ul{
-    display:block;
-    position:absolute;
-    color:#5a5a5a
-}
-
-.nav ul li:hover ul li a{
-    display:block;
-     color:#FFF;
-     text-align: center;
-}*/

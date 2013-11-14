@@ -44,19 +44,17 @@ $(document).ready(function(){
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                 <li><a href="about.php">About</a></li>
-                  <li><a href="#">Shop</a></li>
-                <li><a href="contact.php">Contact</a></li>
-                <div id="flip">
-                  <li class="dropdown">Services</div>
-                    <div id="panel">
+                  
+                
                   
                     <li><a href="webdesign.php">Web Design</a></li>
-                    <li><a href="#">Gaming</a></li>
+                    <li><a href="gamedev.php">Gaming</a></li>
                     <li><a href="support.php">Tech Support</a></li>
+                  <li><a href="#">Shop</a></li>
+                  <li><a href="contact.php">Contact</a></li>
                      <!-- <li><a href="music.php">Music</a></li>-->
                   
                         </div>
-                </li>
               </ul>
             </div>
           </div>

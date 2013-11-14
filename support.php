@@ -7,9 +7,9 @@
 <title>EnArch | Tech Support</title>
 </head>
 <div id="supportcontent">
-    <br/><br/><br/>
+    <br/><br/><br/><br/>
     <h1>Tech Support</h1>
-        <p>Please try restarting your laptop <b><i>before</i></b> you submit a support ticket. If a computer restart does not fix it, then please by all means submit a ticket.</p>
+        <p><br/>Please try restarting your laptop <b><i>before</i></b> you submit a support ticket. If a computer restart does not fix it, then please by all means submit a ticket.</p>
 <div id="techsupport" align="center">
     <form action="MAILTO:mwilke16@moundsparkacademy.org" method="post" enctype="text/plain"><br/>
         Name:<br>
