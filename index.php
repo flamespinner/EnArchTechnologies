@@ -6,6 +6,7 @@
 <head>
 <title>EnArch | Home</title>
     <link rel="stylesheet" href="styles.css" type="text/css" media="screen" />
+    
 </head>
 <!-- Carousel
     ================================================== -->

@@ -13,6 +13,17 @@
     <!-- Custom styles for this template -->
     <link href="css/carousel.css" rel="stylesheet">
       <link href="styles.css" rel="stylesheet">
+      
+      <script src="jquery.js"></script>
+    
+    <script> 
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideToggle("slow");
+  });
+});
+</script>
+      
   </head>
 <!-- NAVBAR
 ================================================== -->
@@ -35,14 +46,16 @@
                 <li><a href="about.php">About</a></li>
                   <li><a href="#">Shop</a></li>
                 <li><a href="contact.php">Contact</a></li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <b class="caret"></b></a>
-                  <ul class="dropdown-menu">
+                <div id="flip">
+                  <li class="dropdown">Services</div>
+                    <div id="panel">
+                  
                     <li><a href="webdesign.php">Web Design</a></li>
                     <li><a href="#">Gaming</a></li>
-                    <li><a href="#">Tech Support</a></li>
+                    <li><a href="support.php">Tech Support</a></li>
                      <!-- <li><a href="music.php">Music</a></li>-->
-                  </ul>
+                  
+                        </div>
                 </li>
               </ul>
             </div>

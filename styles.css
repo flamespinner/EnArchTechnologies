@@ -45,6 +45,21 @@ background-image: linear-gradient(to bottom, #FFFFFF 0%, #7A7A7A 62%);
     text-align:center;
 }
 
+#flip
+{
+    width:200px;
+    padding-left:15px;
+background-color:#000;
+color:#9a9a9a;
+}
+
+#panel
+{
+    color:#FFF;
+padding:50px;
+    display:none;
+}
+
 /*.nav
 {
     justify-content:center;
