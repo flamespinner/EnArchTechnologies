@@ -39,19 +39,19 @@ $(document).ready(function(){
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="main.php">EnArch Technologies </a>
+              <a class="navbar-brand" href="main_es.php">Tecnologías EnArch </a>
             </div>
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li><a href="about.php">About</a></li>
+                <li><a href="about_es.php">Sobre EnArch</a></li>
                   
                 
                   
-                    <li><a href="webdesign.php">Web Design</a></li>
-                    <li><a href="gamedev.php">Gaming</a></li>
-                    <li><a href="support.php">Tech Support</a></li>
-                  <li><a href="store.php">Shop</a></li>
-                  <li><a href="contact.php">Contact</a></li>
+                    <li><a href="webdesign.php">Diseñar de Sitios Web</a></li>
+                    <li><a href="gamedev.php">Videojuegos</a></li>
+                    <li><a href="support.php">Ayuda con Computadoras</a></a></li>
+                  <li><a href="#">Comprar</a></li>
+                  <li><a href="contact.php">Contactar</a></li>
                      <!-- <li><a href="music.php">Music</a></li>-->
                   
                         </div>
