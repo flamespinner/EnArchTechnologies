@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
-    <meta name="author" content="Riley Lannon">
+    <meta name="author" content="Riley Lannon & Michael Wilke">
 
     <title>EnArch | Home</title>
 
@@ -92,7 +92,7 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>About EnArch</h2>
-                <p>EnArch is a small technology company based out of Minnesota, USA, in partnership with <a href="http://www.dbztech.com">DBZ Tech</a>.</p>
+                <p>EnArch is a small technology company based out of Minnesota, USA, in partnership with <a href="http://www.dbztech.com">DBZTech</a>.</p>
                 <p>We do Web Design, Game and Software Development, and have a variety of original products you can purchase -- right here on our website.</p>
                 <p>We only have a handful of "employees", but we have a lot in the works, and are very dedicated to what we do. Our goal is to make technology simple, understandable, and enjoyed by all people.</p>
             </div>
@@ -100,12 +100,12 @@
     </section>
 
     <section id="design" class="content-section text-center">
-        <div class="download-section">
+        <div class="web-design">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
                     <h2>Web Development</h2>
-                    <p>We are excited to make your dream become a reality. With talented web developers experienced in HTML, CSS, PHP, and JavaScript, we are ready to take on whatever challenge you throw at us. We have low rates and are happy to make your site exactly the way you want it.</p>
-                    <a href="http://startbootstrap.com/grayscale" class="btn btn-default btn-lg">Learn More</a>
+                    <p>We are excited to make your dream become a reality. With talented web developers experienced in HTML, CSS, PHP, and JavaScript, we are ready to take on whatever challenge you throw at us. We have low rates and are happy to make your site exactly the way you want it. Once you hire us to design your website, we will update it for free whenever you want, and make sure the site gets hosted.</p>
+                    <a href="webdesign.php" class="btn btn-default btn-lg">Learn More</a>
                 </div>
             </div>
         </div>

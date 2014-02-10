@@ -241,11 +241,12 @@ a:focus {
     padding-top: 100px;
 }
 
-.download-section {
+.web-design {
     width: 100%;
     padding: 50px 0;
     color: #fff;
     background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+    /*background: url(img/website-html-code-browser-view-white-background-24331527.jpg) no-repeat center center scroll;*/
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -264,7 +265,7 @@ a:focus {
         padding-top: 250px;
     }
 
-    .download-section {
+    .web-design {
         padding: 100px 0;
     }
 
