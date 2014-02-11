@@ -117,7 +117,7 @@
                 <h2>Tech Support</h2>
                 <p>Have a computer problem? Don't know what to do? It's okay -- you've got us!</p>
                 <p>If you are having a technical issue, a restart may fix whatever problem you're having (Internet issue? Try turning off your wifi, or router, or browser, or all of them. Computer issue? Try to restart it).</p>
-                <p>If a restart doesn't fix it, visit our FAQ. If your problem isn't listed there, we'll be happy to take a look.</p>
+                <p>If a restart doesn't fix it, <a href="faq.php">take a look at our FAQ</a>. If your problem isn't listed there, we'll be happy to take a look.</p>
             </div>
         </div>
     </section>
@@ -128,6 +128,7 @@
                 <h2>Game and Software Development</h2>
                 <p>Here at EnArch, we take enjoyment in designing games and software. We have people ready to design using C++, TES/CS, and CryEngine.</p>
                 <p>We are also currently designing a computer operating system, a simple game console, writing tutorials, and various other games and products. More information will be posted on the website later.</p>
+                <a href="dev.php" class="btn btn-default btn-lg">View Games and Software</a>
             </div>
         </div>
     </section>
@@ -138,18 +139,12 @@
                 <h2>Contact Us</h2>
                 <p>Feel free to contact us for feedback, questions, or business inquiries!</p>
                 <p>enarch@gmail.com</p>
-                <ul class="list-inline banner-social-buttons">
-                    <li><a href="#" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                    </li>
-                    <li><a href="#" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                    </li>
-                    <li><a href="#" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
-                    </li>
-                </ul>
             </div>
         </div>
     </section>
 
+     <?php include('footer.php'); ?>
+    
     <div id="map"></div>
 
     <!-- Core JavaScript Files NEEDS TO STAY - FANCY SLIDE EFFECTS -->

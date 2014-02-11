@@ -48,15 +48,15 @@
                         <a href="webdesign.php">Web Design</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="support.php">Tech Support</a>
+                        <a href="faq.php">Tech Support</a>
                     </li>
                     
                     <li class="page-scroll">
-                        <a href="#dev">Software</a>
+                        <a href="dev.php">Software</a>
                     </li>
                     
                     <li class="page-scroll">
-                        <a href="#contact">Contact</a>
+                        <a href="contact.php">Contact</a>
                     </li>
                     
                     <li>
@@ -73,23 +73,14 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h1>Web Development</h1>
-                <p>If you want a website, whether it be for personal use or for a business, EnArch is here for you. We will work to make sure the website that you want is available for everyone to see, and has all of the features you need. We will update and do annual maintenance for no additional cost. With low costs, talented developers, and no hidden fees, you have every right to be excited.</p>
-                <p>If you want us to design your website or have questions, simply <a href="contact.php">send us an email</a>, and we will make sure you are comfortable before making any decisions.</p>
-            </div>
-        </div>
-        <br /><br />
-                <ul class="list-inline banner-social-buttons">
-                    <li><a href="#" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                    </li>
-                    <li><a href="#" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                    </li>
-                    <li><a href="#" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
-                    </li>
-                </ul>
+                <p>If you want a website, whether it be for personal use or for a business, EnArch is here for you. We have web developers who are experienced with HTML, CSS, PHP, JavaScript, and JQuery, all of whom are ready to use those skills in the field. We will work to make sure the website that you want is available for everyone to see, and has all of the features you need. We will update and do annual maintenance for no additional cost. With low costs, talented developers, and no hidden fees, you have every right to be excited.</p>
+                <p>If you want us to design your website or have questions, simply <a href="contact.php">send us an email</a> or <a href="store.php">visit the store</a>, and we will make sure you get exactly what you'd like.</p>
             </div>
         </div>
 <Br /><br />
     </section>
+
+<?php include('footer.php'); ?>
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>

@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="Riley Lannon & Michael Wilke">
 
-    <title>EnArch | Contact</title>
+    <title>EnArch | Software</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -72,12 +73,9 @@
     <section id="about" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h1>Contact</h1>
-                <p>We are not 100% functional yet, so our contact forms are still in the works. You can, however, contact us via email at:</p>
-                <p>enarch@gmail.com</p>
-                <p>rlannon16@moundsparkacademy.org</p>
-                <p>mwilke16@moundsparkacademy.org</p>
-                <p>We check each of these emails daily, but it is preferred that you email the first one. The last two are more personal emails and your email may end up getting trashed by our spam filters. Therefore, it is preferred that you email the first one.</p>
+                <h1>Game and Software Development</h1>
+                <p>We are excited to begin software development here at EnArch. Nothing is complete yet, but we have a lot in the works. We'll make sure everything gets up on the site once it is complete.</p>
+                <p>As to what we are working on? We are currently working on various programs for encrypting files, games (very basic), even an Operating System. Most of this will take a while to be released, but we will make sure that you know when it is!</p>
             </div>
         </div>
 <Br /><br />
