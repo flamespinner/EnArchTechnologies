@@ -85,6 +85,13 @@ $(document).ready(function(){
   });
 });
 </script>
+                    <script>
+                     $(document).ready(function(){
+  $("#flip2").click(function(){
+    $("#panel2").slideToggle("slow");
+  });
+});
+                    </script>
                     <style type="text/css">
                         #flip{
                             height:40px;
@@ -98,10 +105,24 @@ $(document).ready(function(){
                             border-left:1px solid #FFF;
                             border-right:1px solid #FFF;
                         }
+                        #flip2{
+                            height:40px;
+                            padding:5px;
+                            border:1px solid #FFF;
+                        }
+                        #panel2{
+                            display:none;
+                            padding:5px;
+                            border-bottom:1px solid #FFF;
+                            border-left:1px solid #FFF;
+                            border-right:1px solid #FFF;
+                        }
                     </style>
-                    <div id="flip"><h3>Question</h3></div>
-<div id="panel"><p>Answer </p>
+                    <div id="flip"><h3>My computer is slow. How can I fix this?</h3></div>
+<div id="panel"><p>It depends on the source of the problem. You can usually identify the problem depending on what is being slow (downloads, videos, opening applications, games, et cetera). If it has to do with internet, go to <a href="www.speedtest.net">speedtest.net</a> to check your internet connection. If it seems to be a problem with the internet, call your provider and have them check it out. If it is just generally running slowly, check to see<br/><br/></>a) How much free space you have. The less free space on your hard drive, the slower your computer can get.<br/><br/>b) How many processes are running. If you run Mac, you can press Command+Tab to see a list of your open programs, and Command+Q quits them (unlike Windows where you can simply click the X, Mac keeps the program open so you can close and open windows within the program). If you run Windows, you can open the Task Manager by clicking Control+Alt+Delete.<Br/><br/>c) If you have a virus. Get a good anti-virus program to not only remove viruses on the computer, but keep you from getting another one.</p>
 </div>
+                <div id="flip2"><h3>I keep getting popups. How do I get rid of them?</h3></div>
+                <div id="panel2"><p>First, check your browser settings. Some browsers have options that allow you do disable popups (not <i>all</i> popups will be disabled, but most of them should. If you still keep getting the popups (especially when you're not using the internet), you probably have adware installed. Be sure to get a good anti-virus program to remove viruses and adware, and keep your computer running smoothly.</p></div>
                 </p>
             </div>
         </div>
