@@ -138,7 +138,7 @@
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Contact Us</h2>
                 <p>Feel free to contact us for feedback, questions, or business inquiries!</p>
-                <p>enarch@gmail.com</p>
+                <p>enarchtech@gmail.com</p>
             </div>
         </div>
     </section>
