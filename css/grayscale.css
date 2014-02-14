@@ -127,12 +127,13 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+    background: url(../img/Black.svg) bottom center scroll;
     background-color: #000;
-    -webkit-background-size: cover;
+    background-size: 15%
+    /*-webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    -o-background-size: cover;
+    -o-background-size: cover;*/
 }
 
 .intro-body {
