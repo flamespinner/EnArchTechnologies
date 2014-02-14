@@ -73,11 +73,11 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h1>Contact</h1>
-                <p>We are not 100% functional yet, so our contact forms are still in the works. You can, however, contact us via email at:</p>
+                <p>You can contact us via email at:</p>
                 <p>enarch@gmail.com</p>
                 <p>rlannon16@moundsparkacademy.org</p>
                 <p>mwilke16@moundsparkacademy.org</p>
-                <p>We check each of these emails daily, but it is preferred that you email the first one. The last two are more personal emails and your email may end up getting trashed by our spam filters. Therefore, it is preferred that you email the first one.</p>
+                <p>While we do check all of these emails on a regular basis, it is preferred that you email the first one.</p>
             </div>
         </div>
 <Br /><br />

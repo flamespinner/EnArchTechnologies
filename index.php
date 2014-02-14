@@ -93,8 +93,8 @@
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>About EnArch</h2>
                 <p>EnArch is a small technology company based out of Minnesota, USA, in partnership with <a href="http://www.dbztech.com">DBZTech</a>.</p>
-                <p>We do Web Design, Game and Software Development, and have a variety of original products you can purchase -- right here on our website.</p>
-                <p>We only have a handful of "employees", but we have a lot in the works, and are very dedicated to what we do. Our goal is to make technology simple, understandable, and enjoyed by all people.</p>
+                <p>We do web design, game and software development, and have a variety of original products you can purchase —— right here on our website.</p>
+                <p>Although we only have a handful of "employees", we have a lot in the works and we all are very dedicated to what we do. Our goal is to make technology simple, understandable, and enjoyed by all people.</p>
             </div>
         </div>
     </section>
@@ -104,7 +104,7 @@
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
                     <h2>Web Development</h2>
-                    <p>We are excited to make your dream become a reality. With talented web developers experienced in HTML, CSS, PHP, and JavaScript, we are ready to take on whatever challenge you throw at us. We have low rates and are happy to make your site exactly the way you want it. Once you hire us to design your website, we will update it for free whenever you want, and make sure the site gets hosted.</p>
+                    <p>We are excited to make your dream become reality. With talented web developers experienced in HTML, CSS, PHP, and JavaScript, we are ready to take on whatever challenge you throw at us. We have low rates and are happy to make your site exactly the way you want it. Once you hire us to design your website, we will update it for free whenever you want and will make sure the site gets hosted.</p>
                     <a href="webdesign.php" class="btn btn-default btn-lg">Learn More</a>
                 </div>
             </div>
@@ -115,8 +115,8 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Tech Support</h2>
-                <p>Have a computer problem? Don't know what to do? It's okay -- you've got us!</p>
-                <p>If you are having a technical issue, a restart may fix whatever problem you're having (Internet issue? Try turning off your wifi, or router, or browser, or all of them. Computer issue? Try to restart it).</p>
+                <p>Have a computer problem? Don't know what to do? It's okay —— you've got us!</p>
+                <p>If you are having a technical issue, restarting your computer may fix whatever problem you're having. For example, if you have an internet connection issue, you can try turning off your wifi or router or closing your browser (or doing all of all three). If the computer simply isn't working, try restarting it.</p>
                 <p>If a restart doesn't fix it, <a href="faq.php">take a look at our FAQ</a>. If your problem isn't listed there, we'll be happy to take a look.</p>
             </div>
         </div>
@@ -127,7 +127,7 @@
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Game and Software Development</h2>
                 <p>Here at EnArch, we take enjoyment in designing games and software. We have people ready to design using C++, TES/CS, and CryEngine.</p>
-                <p>We are also currently designing a computer operating system, a simple game console, writing tutorials, and various other games and products. More information will be posted on the website later.</p>
+                <p>We are also currently designing a computer operating system, a simple game console, writing tutorials, and various other games and products. More information will be posted on this website later.</p>
                 <a href="dev.php" class="btn btn-default btn-lg">View Games and Software</a>
             </div>
         </div>
@@ -137,7 +137,7 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Contact Us</h2>
-                <p>Feel free to contact us for feedback, questions, or business inquiries!</p>
+                <p>Feel free to contact us for feedback, questions, or business inquiries at:</p>
                 <p>enarchtech@gmail.com</p>
             </div>
         </div>

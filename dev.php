@@ -74,8 +74,8 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h1>Game and Software Development</h1>
-                <p>We are excited to begin software development here at EnArch. Nothing is complete yet, but we have a lot in the works. We'll make sure everything gets up on the site once it is complete.</p>
-                <p>As to what we are working on? We are currently working on various programs for encrypting files, games (very basic), even an Operating System. Most of this will take a while to be released, but we will make sure that you know when it is!</p>
+                <p>We are excited to begin software development here at EnArch. Although nothing is complete yet, we have a lot in the works. We'll make sure to keep the site updated as we continue working.</p>
+                <p>As to what we are working on? We are currently developing various programs for encrypting files, basic games, and even an Operating System. Most of this will take a while to be released, but we will make sure that you know when it is!</p>
             </div>
         </div>
 <Br /><br />
