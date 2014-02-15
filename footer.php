@@ -1,3 +1,12 @@
+<?php
+require_once('class.translation.php');
+
+if(isset($_GET['lang']))
+	$translate = new Translator($_GET['lang']);
+else
+	$translate = new Translator('en');
+?>
+<!--^^Here in case we add "Translatable" content later-->
 <section id="foot" class="banner-social-buttons text-center">
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2">

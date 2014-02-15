@@ -63,6 +63,18 @@ a:focus {
     background-color: #000;
 }
 
+.dropdown-open
+{
+    background-color:transparent;
+}
+
+.dropdown-toggle ~ ul.dropdown-menu {
+    background:#000;
+}
+.dropdown-toggle ~ ul.dropdown-menu.li {
+    color:#fff;
+}
+
 .navbar-brand {
     font-weight: 700;
 }

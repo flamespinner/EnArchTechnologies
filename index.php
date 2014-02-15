@@ -1,3 +1,12 @@
+<?php
+require_once('class.translation.php');
+
+if(isset($_GET['lang']))
+	$translate = new Translator($_GET['lang']);
+else
+	$translate = new Translator('en');
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,7 +16,7 @@
     <meta name="description" content="">
     <meta name="author" content="Riley Lannon & Michael Wilke">
 
-    <title>EnArch | Home</title>
+    <title><?php $translate->__('EnArch | Home'); ?></title>
 
     <!-- Bootstrap Core CSS -->
     <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -31,7 +40,7 @@
                     <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand" href="#page-top">
-                    <i class="fa fa-play-circle"></i>  <span class="light">EnArch</span> Home
+                    <i class="fa fa-play-circle"></i>  <span class="light"><?php $translate->__('EnArch'); ?></span> <?php $translate->__('Home'); ?>
                 </a>
             </div>
 
@@ -43,26 +52,33 @@
                         <a href="#page-top"></a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#about">About</a>
+                        <a href="#about"><?php $translate->__('About'); ?></a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#design">Web Design</a>
+                        <a href="#design"><?php $translate->__('Web Design'); ?></a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#support">Tech Support</a>
-                    </li>
-                    
-                    <li class="page-scroll">
-                        <a href="#dev">Software</a>
+                        <a href="#support"><?php $translate->__('Tech Support'); ?></a>
                     </li>
                     
                     <li class="page-scroll">
-                        <a href="#contact">Contact</a>
+                        <a href="#dev"><?php $translate->__('Software'); ?></a>
+                    </li>
+                    
+                    <li class="page-scroll">
+                        <a href="#contact"><?php $translate->__('Contact'); ?></a>
                     </li>
                     
                     <li>
-                    <a href="Summer@MPA/index.html">Classes</a>
+                    <a href="Summer@MPA/index.html"><?php $translate->__('Classes'); ?></a>
                         </li>
+                    <li class="dropdown-open">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php $translate->__('Language'); ?></a>
+                        <ul class="dropdown-menu">
+                        <li><a href="index.php?lang=en"><img src="img/us.png"></img>  English</a></li>
+                            <li><a href="index.php?lang=es"><img src="img/es.jpg">  Español</img></a></li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -75,8 +91,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">EnArch Tech</h1>
-                        <p class="intro-text">Technology Made Simple. Technology The Way You Want It.</p>
+                        <h1 class="brand-heading"><?php $translate->__('EnArch Technologies'); ?></h1>
+                        <p class="intro-text"><?php $translate->__('Technology Made Simple. Technology The Way You Want It.'); ?></p>
                         <div class="page-scroll">
                             <a href="#about" class="btn btn-circle">
                                 <i class="fa fa-angle-double-down animated"></i>
@@ -91,10 +107,10 @@
     <section id="about" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>About EnArch</h2>
-                <p>EnArch is a small technology company based out of Minnesota, USA, in partnership with <a href="http://www.dbztech.com">DBZTech</a>.</p>
-                <p>We do web design, game and software development, and have a variety of original products you can purchase —— right here on our website.</p>
-                <p>Although we only have a handful of "employees", we have a lot in the works and we all are very dedicated to what we do. Our goal is to make technology simple, understandable, and enjoyed by all people.</p>
+                <h2><?php $translate->__('About EnArch'); ?></h2>
+                <p><?php $translate->__('EnArch is a small technology company based out of Minnesota, USA, in partnership with'); ?> <a href="http://www.dbztech.com">DBZTech</a>.</p>
+                <p><?php $translate->__('We do web design, game and software development, and have a variety of original products you can purchase —— right here on our website.'); ?></p>
+                <p><?php $translate->__('Although we only have a handful of "employees", we have a lot in the works and we are very dedicated to what we do. Our goal is to make technology simple, understandable, and enjoyed by all people.'); ?></p>
             </div>
         </div>
     </section>
@@ -103,9 +119,9 @@
         <div class="web-design">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Web Development</h2>
-                    <p>We are excited to make your dream become reality. With talented web developers experienced in HTML, CSS, PHP, and JavaScript, we are ready to take on whatever challenge you throw at us. We have low rates and are happy to make your site exactly the way you want it. Once you hire us to design your website, we will update it for free whenever you want and will make sure the site gets hosted.</p>
-                    <a href="webdesign.php" class="btn btn-default btn-lg">Learn More</a>
+                    <h2><?php $translate->__('Web Development'); ?></h2>
+                    <p><?php $translate->__('We are excited to make your dream become reality. With talented web developers experienced in HTML, CSS, PHP, and JavaScript, we are ready to take on whatever challenge you throw at us. We have low rates and are happy to make your site exactly as you want it. Once you hire us to design your website, we will update it for free whenever you want and will make sure the site gets hosted.'); ?></p>
+                    <a href="webdesign.php" class="btn btn-default btn-lg"><?php $translate->__('Learn More'); ?></a>
                 </div>
             </div>
         </div>
@@ -114,10 +130,10 @@
     <section id="support" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>Tech Support</h2>
-                <p>Have a computer problem? Don't know what to do? It's okay —— you've got us!</p>
-                <p>If you are having a technical issue, restarting your computer may fix whatever problem you're having. For example, if you have an internet connection issue, you can try turning off your wifi or router or closing your browser (or doing all of all three). If the computer simply isn't working, try restarting it.</p>
-                <p>If a restart doesn't fix it, <a href="faq.php">take a look at our FAQ</a>. If your problem isn't listed there, we'll be happy to take a look.</p>
+                <h2><?php $translate->__('Tech Support'); ?></h2>
+                <p><?php $translate->__('Have a computer problem? Don\'t know what to do? It\'s okay —— you\'ve got us!'); ?></p>
+                <p><?php $translate->__('If you are having a technical issue, restarting your computer may fix the problem. For example, if you have an internet connection issue, you can try turning off your WiFi or router or closing your browser. If the computer simply isn\'t working, try restarting it.'); ?></p>
+                <p><?php $translate->__('If a restart doesn\'t fix it,'); ?><a href="faq.php"> <?php $translate->__('take a look at our'); ?> FAQ</a>. <?php $translate->__('If your problem isn\'t listed there, we will be happy to take a look.'); ?></p>
             </div>
         </div>
     </section>
@@ -125,10 +141,10 @@
     <section id="dev" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>Game and Software Development</h2>
-                <p>Here at EnArch, we take enjoyment in designing games and software. We have people ready to design using C++, TES/CS, and CryEngine.</p>
-                <p>We are also currently designing a computer operating system, a simple game console, writing tutorials, and various other games and products. More information will be posted on this website later.</p>
-                <a href="dev.php" class="btn btn-default btn-lg">View Games and Software</a>
+                <h2><?php $translate->__('Game and Software Development'); ?></h2>
+                <p><?php $translate->__('Here at EnArch, we take enjoyment in designing games and software. We have people ready to design using C++, TES/CS, and CryEngine.'); ?></p>
+                <p><?php $translate->__('We are also currently designing a computer operating system, a simple game console, writing tutorials, and various other games and products. More information will be posted on this website later.'); ?></p>
+                <a href="dev.php" class="btn btn-default btn-lg"><?php $translate->__('View Games and Software'); ?></a>
             </div>
         </div>
     </section>
@@ -136,8 +152,8 @@
     <section id="contact" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact Us</h2>
-                <p>Feel free to contact us for feedback, questions, or business inquiries at:</p>
+                <h2><?php $translate->__('Contact Us'); ?></h2>
+                <p><?php $translate->__('Feel free to contact us for feedback, questions, or business inquiries at:'); ?></p>
                 <p>enarchtech@gmail.com</p>
             </div>
         </div>

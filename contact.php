@@ -77,7 +77,7 @@
                 <p>enarch@gmail.com</p>
                 <p>rlannon16@moundsparkacademy.org</p>
                 <p>mwilke16@moundsparkacademy.org</p>
-                <p>While we do check all of these emails on a regular basis, it is preferred that you email the first one.</p>
+                <p>While we do check all of these emails on a regular basis, it is preferred that you email the first one. It is the primary email for EnArch.</p>
             </div>
         </div>
 <Br /><br />
