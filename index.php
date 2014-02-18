@@ -28,6 +28,16 @@ else
 
     <!-- Custom Theme CSS -->
     <link href="css/grayscale.css" rel="stylesheet">
+    <script>
+    
+        $(document).ready(function(){
+    //Handles menu drop down
+    $('.dropdown-menu').find('form').click(function (e) {
+        e.stopPropagation();
+    });
+});
+    
+    </script>
 
 </head>
 
@@ -66,17 +76,26 @@ else
                     </li>
                     
                     <li class="page-scroll">
+                        <a href="#store"><?php $translate->__('Store'); ?></a>
+                    </li>
+                    
+                    <li class="page-scroll">
                         <a href="#contact"><?php $translate->__('Contact'); ?></a>
                     </li>
                     
-                    <li>
-                    <a href="Summer@MPA/index.html"><?php $translate->__('Classes'); ?></a>
-                        </li>
-                    <li class="dropdown-open">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php $translate->__('Language'); ?></a>
-                        <ul class="dropdown-menu">
-                        <li><a href="index.php?lang=en"><img src="img/us.png"></img>  English</a></li>
-                            <li><a href="index.php?lang=es"><img src="img/es.jpg">  Español</img></a></li>
+                    <li class="dropdown">
+                     <a href="http://www.jquery2dotnet.com" class="dropdown-toggle" data-toggle="dropdown"><?php $translate->__('More'); ?> <b class="caret"></b></a>
+                     <ul class="dropdown-menu">
+                        <li><a href="Summer@MPA/index.html"><?php $translate->__('Classes'); ?></a></li>
+                         <li><a href="store.php">Store</a></li>
+                         
+                        <li class="divider"></li>
+                        <li><a href="index.php?lang=en"><img src="img/us.png"></img>   English</a></li>
+                        <li class="divider"></li>
+                        <li><a href="index.php?lang=es"><img src="img/es.jpg"></img>   Español</a></li>
+                     </ul>
+                  </li>
+                    
                         </ul>
                     </li>
                 </ul>
@@ -145,6 +164,16 @@ else
                 <p><?php $translate->__('Here at EnArch, we take enjoyment in designing games and software. We have people ready to design using C++, TES/CS, and CryEngine.'); ?></p>
                 <p><?php $translate->__('We are also currently designing a computer operating system, a simple game console, writing tutorials, and various other games and products. More information will be posted on this website later.'); ?></p>
                 <a href="dev.php" class="btn btn-default btn-lg"><?php $translate->__('View Games and Software'); ?></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="store" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2><?php $translate->__('Store'); ?></h2>
+                <p><?php $translate->__('We have a variety of products available for purchase, here on our site. We use PayPal to place our orders, but you don\'t need a PayPal account to buy products from us! Visit our store for more information.'); ?></p>
+                <a href="store.php" class="btn btn-default btn-lg"><?php $translate->__('Visit the Store'); ?></a>
             </div>
         </div>
     </section>

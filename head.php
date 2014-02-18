@@ -1,3 +1,14 @@
+<script>
+    
+        $(document).ready(function(){
+    //Handles menu drop down
+    $('.dropdown-menu').find('form').click(function (e) {
+        e.stopPropagation();
+    });
+});
+    
+    </script>
+
 <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header page-scroll">
@@ -34,9 +45,19 @@
                         <a href="contact.php">Contact</a>
                     </li>
                     
-                    <li>
-                    <a href="Summer@MPA/index.html">Classes</a>
-                        </li>
+                    <li class="dropdown">
+                     <a href="http://www.jquery2dotnet.com" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
+                     <ul class="dropdown-menu">
+                        <li><a href="Summer@MPA/index.html">Classes</a></li>
+                         <li><a href="store.php">Store</a></li>
+                         
+                        <li class="divider"></li>
+                        <li><a href="index.php?lang=en"><img src="img/us.png"></img>   English</a></li>
+                        <li class="divider"></li>
+                        <li><a href="index.php?lang=es"><img src="img/es.jpg"></img>   Español</a></li>
+                     </ul>
+                  </li>
+                    
                 </ul>
             </div>
             <!-- /.navbar-collapse -->

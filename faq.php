@@ -21,100 +21,114 @@
 
     <!-- Custom Theme CSS -->
     <link href="css/grayscale.css" rel="stylesheet">
+    <link href="css/faq.css" rel="stylesheet">
 
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
 
     <?php include('head.php'); ?>
-
+    
     <section id="about" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h1>Frequently Asked Questions</h1>
-                <p>If you are having computer issues, take a look at our FAQ before you email us or take it in. There may be a simple fix to your issue. To view the answer to a question, simply click on it. If the FAQ does not solve your problem please submit the form below.</p>
+                <p>If you are having computer issues, take a look at our FAQ before you email us or take your computer in for a fix. There may be a simple solution to your issue. To view the answer to a question, simply click on it. If the FAQ does not solve your problem please submit the form below.</p>
+            
+                <!-- Nav tabs category -->
+            <ul class="nav nav-tabs faq-cat-tabs">
+                <li class="active"><a href="#faq-cat-1" data-toggle="tab">General</a></li>
+                <li><a href="#faq-cat-2" data-toggle="tab">Mac Specific</a></li>
+            </ul>
                 
-                        <script> 
-$(document).ready(function(){
-  $("#flip").click(function(){
-    $("#panel").slideToggle("slow");
-    $("#panel2").slideUp("slow");
-    $("#panel3").slideUp("slow");
-  });
-});
-</script>
-                    <script>
-                     $(document).ready(function(){
-  $("#flip2").click(function(){
-    $("#panel2").slideToggle("slow");
-    $("#panel").slideUp("slow");
-    $("panel3").slideUp("slow");
-  });
-});
-                    </script>
-                    
-                    <script>
-                     $(document).ready(function(){
-  $("#flip3").click(function(){
-    $("#panel3").slideToggle("slow");
-    $("#panel").slideUp("slow");
-    $("panel2").slideUp("slow");
-  });
-});
-                    </script>
-                    
-                    <style type="text/css">
-                        #flip{
-                            height:40px;
-                            padding:5px;
-                            /*border:1px solid #FFF;*/
-                        }
-                        #panel{
-                            display:none;
-                            padding:5px;
-                            /*border-bottom:1px solid #FFF;
-                            border-left:1px solid #FFF;
-                            border-right:1px solid #FFF;*/
-                        }
-                        #flip2{
-                            height:40px;
-                            padding:5px;
-                            /*border:1px solid #FFF;*/
-                        }
-                        #panel2{
-                            display:none;
-                            padding:5px;
-                           /* border-bottom:1px solid #FFF;
-                            border-left:1px solid #FFF;
-                            border-right:1px solid #FFF;*/
-                        }
-                         #flip3{
-                            height:40px;
-                            padding:5px;
-                            /*border:1px solid #FFF;*/
-                        }
-                        #panel3{
-                            display:none;
-                            padding:5px;
-                           /* border-bottom:1px solid #FFF;
-                            border-left:1px solid #FFF;
-                            border-right:1px solid #FFF;*/
-                        }
-                    </style>
-                    <div id="flip"><h3>My computer is slow. How can I fix this?</h3></div>
-<div id="panel"><p>It depends on the source of the problem. You can usually identify the problem depending on what is delayed (downloads, videos, opening applications, games, etc.). If the problem seems to be related to the internet, go to <a href="www.speedtest.net">speedtest.net</a> to check your internet connection. If the connection is low, call your provider and have them check it out. On the otherhand, if your computer is just generally running slowly, check to see:<br/><br/></>a) How much free space you have. The less free space on your hard drive, the slower your computer will get.<br/><br/>b) How many programs are running. If you run Mac, you can press Command+Tab to see a list of your open programs, and use Command+Q to quit them (unlike Windows where you can simply click the X, Mac keeps the program open so you can close and open windows within the program). If you run Windows, you can open the Task Manager by clicking Control+Alt+Delete.<Br/><br/>c) If you have a virus. Get a good anti-virus program to not only find and remove viruses on the computer, but keep you from getting more.</p>
+                <div class="tab-content faq-cat-content">
+                <div class="tab-pane active in fade" id="faq-cat-1">
+                    <div class="panel-group" id="accordion-cat-1">
+                        <div class="panel panel-default panel-faq">
+                            <div class="panel-heading">
+                                <a data-toggle="collapse" data-parent="#accordion-cat-1" href="#faq-cat-1-sub-1">
+                                    <h4 class="panel-title">
+                                        My computer is slow. How can I fix this?
+                                        <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
+                                    </h4>
+                                </a>
+                            </div>
+                            <div id="faq-cat-1-sub-1" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                   It depends on the source of the problem. You can usually identify the problem depending on what is delayed (downloads, videos, opening applications, games, etc.). If the problem seems to be related to the internet, go to <a href="www.speedtest.net">speedtest.net</a> to check your internet connection. If the connection is low, call your provider and have them check it out. On the otherhand, if your computer is just generally running slowly, check to see:<br/><br/></>a) How much free space you have. The less free space on your hard drive, the slower your computer will get.<br/><br/>b) How many programs are running. If you run Mac, you can press Command+Tab to see a list of your open programs, and use Command+Q to quit them (unlike Windows where you can simply click the X, Mac keeps the program open so you can close and open windows within the program). If you run Windows, you can open the Task Manager by clicking Control+Alt+Delete.<Br/><br/>c) If you have a virus. Get a good anti-virus program to not only find and remove viruses on the computer, but keep you from getting more.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default panel-faq">
+                            <div class="panel-heading">
+                                <a data-toggle="collapse" data-parent="#accordion-cat-1" href="#faq-cat-1-sub-2">
+                                    <h4 class="panel-title">
+                                        I keep getting popups. How do I get rid of them?
+                                        <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
+                                    </h4>
+                                </a>
+                            </div>
+                            <div id="faq-cat-1-sub-2" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    First, check your browser settings. Some browsers have options that allow you do disable popups (not <i>all</i> popups will be disabled, but most of them should be). If you still keep getting the popups —— especially when you're not using the internet —— you probably have adware, a sort of program that downloads or displays advertising material on your computer. Be sure to get a good anti-virus program to remove viruses and adware so that your computer will keep running smoothly.</p>
 </div>
-                <li class="divider"></li>
-                <div id="flip2"><h3>I keep getting popups. How do I get rid of them?</h3></div>
-                <div id="panel2"><p>First, check your browser settings. Some browsers have options that allow you do disable popups (not <i>all</i> popups will be disabled, but most of them should be). If you still keep getting the popups —— especially when you're not using the internet —— you probably have adware, a program that puts popups on your computer, installed. Be sure to get a good anti-virus program to remove viruses and adware so that your computer will keep running smoothly.</p>
+                                </div>
+                            </div>
+                     <div class="panel panel-default panel-faq">
+                            <div class="panel-heading">
+                                <a data-toggle="collapse" data-parent="#accordion-cat-2" href="#faq-cat-2-sub-1">
+                                    <h4 class="panel-title">
+                                        My Battery Doesn't Hold As Much Charge As It Used To. Why Is This?
+                                        <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
+                                    </h4>
+                                </a>
+                            </div>
+                            <div id="faq-cat-1-sub-3" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    The batteries found in phones or laptops, called lithium-ion batteries, will gradually lose their maximum charge over time. There isn't much you can do to improve your battery life, but sometimes your battery may not display the correct charge. To change this, you can "recalibrate" your battery (this is different for every device, so a simple google search will yield the result you want). Batteries lose charge even if they aren't in use, and a battery that has not held any charge for a long enough time will end up losing its ability to recharge. Note that leaving your computer plugged in does not harm the battery —— once at 100%, the computer runs off of AC power.
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                <div class="tab-pane fade" id="faq-cat-2">
+                    <div class="panel-group" id="accordion-cat-2">
+                        <div class="panel panel-default panel-faq">
+                            <div class="panel-heading">
+                                <a data-toggle="collapse" data-parent="#accordion-cat-2" href="#faq-cat-2-sub-1">
+                                    <h4 class="panel-title">
+                                        Mac Problem
+                                        <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
+                                    </h4>
+                                </a>
+                            </div>
+                            <div id="faq-cat-2-sub-1" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    Mac Solution
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default panel-faq">
+                            <div class="panel-heading">
+                                <a data-toggle="collapse" data-parent="#accordion-cat-2" href="#faq-cat-2-sub-2">
+                                    <h4 class="panel-title">
+                                        When I turned on my Mac, I got a flashing folder with a "?". What does this mean and how do I fix it?
+                                        <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
+                                    </h4>
+                                </a>
+                            </div>
+                            <div id="faq-cat-2-sub-2" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    This problem occurrs when the cable connecting your hard drive to your motherboard is no longer functional —— it is worn, loose, or broken. The only way to fix this is to open up the back panel and replace said cable. This is NOT a home fix, unless you are experienced enough in computers to do it yourself and are okay with possibly voiding your warranty. Bring it into an Apple store and they should be able to fix it in ten minutes.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <li class="divider"></li>
-                <div id="flip3"><h3>My Battery Doesn't Hold As Much Charge As It Used To. Why Is This?</h3></div>
-                <div id="panel3"><p><br/></b>The batteries found in phones or laptops, called lithium-ion batteries, will gradually lose their maximum charge over time. There isn't much you can do to improve your battery life, but sometimes your battery may not display the correct charge. To change this, you can "recalibrate" your battery (this is different for every device, so a simple google search will yield the result you want). Batteries lose charge even if they aren't in use, and a battery that has not held any charge for a long enough time will end up losing its ability to recharge.</p>
+            </div>
                 </div>
                 </p>
             </div>
-        </div>
     </section>
 <Br/><br/>
 
