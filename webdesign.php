@@ -23,57 +23,14 @@
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
 
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand" href="index.php#page-top">
-                    <i class="fa fa-play-circle"></i>  <span class="light">EnArch</span> Home
-                </a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a href="index.php#page-top"></a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="index.php#about">About</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="webdesign.php">Web Design</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="faq.php">Tech Support</a>
-                    </li>
-                    
-                    <li class="page-scroll">
-                        <a href="dev.php">Software</a>
-                    </li>
-                    
-                    <li class="page-scroll">
-                        <a href="contact.php">Contact</a>
-                    </li>
-                    
-                    <li>
-                    <a href="Summer@MPA/index.html">Classes</a>
-                        </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
+    <?php include('head.php'); ?>
 
     <section id="about" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h1>Web Development</h1>
-                <p>If you want a website, whether it be for personal use or for a business, EnArch is here for you. We have web developers who are experienced with HTML, CSS, PHP, JavaScript, and JQuery, all of whom are ready to use those skills in the field. We will work to make sure the website that you want is available for everyone to see, and has all of the features you need. We will update and do annual maintenance for no additional cost. With low costs, talented developers, and no hidden fees, you have every right to be excited.</p>
+                <p>If you want a website, whether it be for personal use or for a business, EnArch is here for you. We have web developers who are experienced with HTML, CSS, PHP, and JavaScript; all of whom are ready to use those skills in the field. We will work to make sure the website that you want is available for everyone to see, and has all of the features you need. We will update and do annual maintenance for no additional cost. You have nothing to worry about except telling us what you want -- we can cover everything from design, to development, to putting your site online. With low costs, talented developers, and no hidden fees, you have every right to be excited.</p>
+                <p>A simple price table can be found here<./p>
                 <p>If you want us to design your website or have questions, simply <a href="contact.php">send us an email</a> or <a href="store.php">visit the store</a>, and we will make sure you get exactly what you'd like.</p>
             </div>
         </div>

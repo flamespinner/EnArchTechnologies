@@ -84,10 +84,10 @@ else
                     </li>
                     
                     <li class="dropdown">
-                     <a href="http://www.jquery2dotnet.com" class="dropdown-toggle" data-toggle="dropdown"><?php $translate->__('More'); ?> <b class="caret"></b></a>
+                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php $translate->__('More'); ?> <b class="caret"></b></a>
                      <ul class="dropdown-menu">
                         <li><a href="Summer@MPA/index.html"><?php $translate->__('Classes'); ?></a></li>
-                         <li><a href="store.php">Store</a></li>
+                         <li><a href="#">Blog</a></li>
                          
                         <li class="divider"></li>
                         <li><a href="index.php?lang=en"><img src="img/us.png"></img>   English</a></li>
@@ -189,8 +189,6 @@ else
     </section>
 
      <?php include('footer.php'); ?>
-    
-    <div id="map"></div>
 
     <!-- Core JavaScript Files NEEDS TO STAY - FANCY SLIDE EFFECTS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>

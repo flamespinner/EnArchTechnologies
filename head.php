@@ -42,14 +42,18 @@
                     </li>
                     
                     <li class="page-scroll">
+                        <a href="store.php">Store</a>
+                    </li>
+                    
+                    <li class="page-scroll">
                         <a href="contact.php">Contact</a>
                     </li>
                     
                     <li class="dropdown">
-                     <a href="http://www.jquery2dotnet.com" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
+                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
                      <ul class="dropdown-menu">
                         <li><a href="Summer@MPA/index.html">Classes</a></li>
-                         <li><a href="store.php">Store</a></li>
+                         <li><a href="#">Blog</a></li>
                          
                         <li class="divider"></li>
                         <li><a href="index.php?lang=en"><img src="img/us.png"></img>   English</a></li>

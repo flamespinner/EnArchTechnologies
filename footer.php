@@ -7,6 +7,7 @@ else
 	$translate = new Translator('en');
 ?>
 <!--^^Here in case we add "Translatable" content later-->
+<link rel="stylesheet" type="text/css" href="css/grayscale.css">
 <section id="foot" class="banner-social-buttons text-center">
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
@@ -19,7 +20,9 @@ else
                     </li>
                 </ul>
             <br/><br/>
-            <p><font size="-1">Copyright 2014 EnArch Technologies</font></p>
+            <div id="foot">
+            <p>Copyright 2014 EnArch Technologies</p>
+            </div>
             </div>
         </div>
     </section>
