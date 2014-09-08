@@ -54,11 +54,17 @@
                      <ul class="dropdown-menu">
                         <li><a href="Summer@MPA/index.html">Classes</a></li>
                          <li><a href="#">Blog</a></li>
+                         <li><a href="source/source.php">Sources</a></li>
+                         <li><a href="music.php">Music</a></li>
                          
                         <li class="divider"></li>
                         <li><a href="index.php?lang=en"><img src="img/us.png"></img>   English</a></li>
                         <li class="divider"></li>
                         <li><a href="index.php?lang=es"><img src="img/es.jpg"></img>   Español</a></li>
+                        <!---<li class="divider"></li>
+                        <li><a href="index.php?lang=tr"><img src="img/tr.jpg"></img>   Türkçe</a></li>
+                        <li class="divider"></li>
+                        <li><a href="index.php?lang=ch"><img src="img/tr.jpg"></img>   中文</a></li>--->
                      </ul>
                   </li>
                     

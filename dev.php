@@ -19,6 +19,7 @@
 
     <!-- Custom Theme CSS -->
     <link href="css/grayscale.css" rel="stylesheet">
+    <link href="css/store.css" rel="stylesheet">
 
 </head>
 
@@ -35,6 +36,34 @@
             </div>
         </div>
 <Br /><br />
+    </section>
+
+<section id="dev" class="banner-social-buttons text-center">
+		 <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+    <ul class="list-inline banner-social-buttons">
+                    <li><a data-toggle="modal" href="#myModal" class="btn btn-default btn-lg"></i> <span class="network-name">Pong</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+<div id="myModal" class="modal fade in" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+ 
+                <div class="modal-header">
+                    <a class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+                    <h4 class="modal-title" id="myModalLabel">Information</h4>
+                </div>
+                <div class="modal-body">
+                    <h4>Arduino-Based Pong Console</h4>
+                    <p>This system is a blast from the past! Made with an Arduino, some wires, potentiometers (knobs), an RCA cable and TV, it works like the real thing. Have fun with friends and family playing videogames the old-school way. The best part? You can make it yourself. View the source and schematics <a href="source/arduino_source.php" target="_blank">here</a>.</p>
+                </div>
+                </div>
+ 
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dalog -->
+<br /><br />
     </section>
     
     <?php include('footer.php'); ?>

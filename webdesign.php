@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="Riley Lannon & Michael Wilke">
 
-    <title>EnArch | About</title>
+    <title>EnArch | Web Design</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">

@@ -17,6 +17,8 @@ else
     <meta name="author" content="Riley Lannon & Michael Wilke">
 
     <title><?php $translate->__('EnArch | Home'); ?></title>
+    
+    <script src = "boostrap.js"></script>
 
     <!-- Bootstrap Core CSS -->
     <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -88,11 +90,17 @@ else
                      <ul class="dropdown-menu">
                         <li><a href="Summer@MPA/index.html"><?php $translate->__('Classes'); ?></a></li>
                          <li><a href="#">Blog</a></li>
+                         <li><a href="source/source.php">Sources</a></li>
+                         <li><a href="music.php">Music</a></li>
                          
                         <li class="divider"></li>
                         <li><a href="index.php?lang=en"><img src="img/us.png"></img>   English</a></li>
                         <li class="divider"></li>
                         <li><a href="index.php?lang=es"><img src="img/es.jpg"></img>   Español</a></li>
+                       <!--- <li class="divider"></li>
+                        <li><a href="index.php?lang=tr"><img src="img/tr.jpg"></img>   Türkçe</a></li>
+                        <li class="divider"></li>
+                        <li><a href="index.php?lang=ch"><img src="img/tr.jpg"></img>   中文</a></li>--->
                      </ul>
                   </li>
                     
@@ -139,7 +147,7 @@ else
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
                     <h2><?php $translate->__('Web Development'); ?></h2>
-                    <p><?php $translate->__('We are excited to make your dream become reality. With talented web developers experienced in HTML, CSS, PHP, and JavaScript, we are ready to take on whatever challenge you throw at us. We have low rates and are happy to make your site exactly as you want it. Once you hire us to design your website, we will update it for free whenever you want and will make sure the site gets hosted.'); ?></p>
+                    <p><?php $translate->__('We are excited to make your dream become a reality. With talented web developers experienced in HTML, CSS, PHP, and JavaScript, we are ready to take on whatever challenge you throw at us. We have low rates and are happy to make your site exactly as you want it. Once you hire us to design your website, we will update it for free whenever you want and will make sure the site gets hosted.'); ?></p>
                     <a href="webdesign.php" class="btn btn-default btn-lg"><?php $translate->__('Learn More'); ?></a>
                 </div>
             </div>
@@ -151,7 +159,7 @@ else
             <div class="col-lg-8 col-lg-offset-2">
                 <h2><?php $translate->__('Tech Support'); ?></h2>
                 <p><?php $translate->__('Have a computer problem? Don\'t know what to do? It\'s okay —— you\'ve got us!'); ?></p>
-                <p><?php $translate->__('If you are having a technical issue, restarting your computer may fix the problem. For example, if you have an internet connection issue, you can try turning off your WiFi or router or closing your browser. If the computer simply isn\'t working, try restarting it.'); ?></p>
+                <p><?php $translate->__('If you are having a technical issue, try restarting whatever is having the problem. If you have an internet connection issue, you can try restarting your WiFi, router or browser. If the computer simply isn\'t working, try restarting it.'); ?></p>
                 <p><?php $translate->__('If a restart doesn\'t fix it,'); ?><a href="faq.php"> <?php $translate->__('take a look at our'); ?> FAQ</a>. <?php $translate->__('If your problem isn\'t listed there, we will be happy to take a look.'); ?></p>
             </div>
         </div>
@@ -173,7 +181,8 @@ else
             <div class="col-lg-8 col-lg-offset-2">
                 <h2><?php $translate->__('Store'); ?></h2>
                 <p><?php $translate->__('We have a variety of products available for purchase, here on our site. We use PayPal to place our orders, but you don\'t need a PayPal account to buy products from us! Visit our store for more information.'); ?></p>
-                <a href="store.php" class="btn btn-default btn-lg"><?php $translate->__('Visit the Store'); ?></a>
+                <p><?php $translate->__('Currently, the store is down -- we do not have enough products available to open it.'); ?></p>
+                <a href="#store" class="btn btn-default btn-lg"><?php $translate->__('Visit the Store'); ?></a>
             </div>
         </div>
     </section>
